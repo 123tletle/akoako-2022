@@ -20,14 +20,4 @@
     left: 20px;
     bottom: 20px;
 }
-.nav__notification-1{
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 30px;
-}
+
