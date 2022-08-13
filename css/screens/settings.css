@@ -1,0 +1,73 @@
+.settings__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: maintimestamp 1s linear forwards
+}
+
+.settings__setting i {
+    opacity: 0.8;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+} 
+
+@keyframes rotateBullhorn{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotatez(360deg);
+    }
+}
+
+.settings__setting-column .fa-bullhorn:hover {
+    animation: rotateGear 1s linear infinite;
+}
+
+
+
+@keyframes rotateLock{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotatez(360deg);
+    }
+}
+
+.settings__setting-column .fa-lock:hover {
+    animation: rotateGear 1s linear infinite;
+}
+
+@keyframes rotateBrush{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotatez(360deg);
+    }
+}
+
+.settings__setting-column .fa-brush:hover {
+    animation: rotateGear 1s linear infinite;
+}
+
+@keyframes settings__setting{
+    from{
+        opacity: 0;
+        transform: scale(3);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
